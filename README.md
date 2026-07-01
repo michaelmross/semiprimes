@@ -4,6 +4,7 @@ Code and data for the computational section of
 
 > M. M. Ross, *Exact Semiprimes in Short Intervals: Prime Supply, Factor-Pair
 > Multiplicity, and the Parity Barrier* (2026).
+> https://doi.org/110.5281/zenodo.21089081
 
 An exact enumeration of Ω(n) for all n < 10¹¹, producing the global-density,
 worst-case-gap, square-interval, dispersion, and gap-self-similarity statistics
