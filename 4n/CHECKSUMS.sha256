@@ -1,0 +1,20 @@
+# CHECKSUMS.sha256 -- 4n/, census of one-step-Fermat semiprimes in J_n to 10^8
+# Repository: https://github.com/michaelmross/semiprimes/tree/main/4n
+#
+# Digests are over the exact LF bytes committed to git. The repository's
+# .gitattributes carries "4n/** -text", so no platform performs EOL
+# translation and these values hold in a Windows checkout and inside the
+# zipball that Zenodo archives from a GitHub release.
+#
+# Verify (run from inside 4n/):
+#   sha256sum -c CHECKSUMS.sha256
+#   python verify_zeros.py            # digests + structure + census re-check
+# Windows PowerShell:
+#   Get-FileHash <file> -Algorithm SHA256
+e994968abc6d573bbd8885b29312acaf323004e44839f02d4c3e929a62cc1273  zeros_R.csv
+dea893b1b3b0c863de58b3fcd99c86c124fcb880715ddcf20404645ce62c995e  zeros_U.csv
+5638e6044799800691d098f2600bf156f874e90150b67bd66499827ce77be520  zeros_J.csv
+cf67f7ebb307611fe01eafadcdfa5cf2b45607e0e9377fc2e7482a522295c45e  census_final.py
+2c900f1e5b5b61358bb9bf8d65dc6b0a29fe49c0f7da6944d90453ffe47d4774  verify_zeros.py
+49e7dc0478d6ca88099f38bb0100265768685e6bde84004e5bb2be370119c3d6  verify_reduction.py
+

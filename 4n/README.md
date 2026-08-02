@@ -38,7 +38,7 @@ the almost-equal-summands literature.
 The parity condition on x is not an extra hypothesis: if x has the wrong
 parity, both factors are even and N is divisible by 4, so N is not a semiprime
 above 4. Nor does x = 0 contribute, since J_n contains no prime square for
-n ≥ 4.
+n ≥ 2.
 
 ## Results
 
@@ -68,6 +68,8 @@ zeros_R.csv         n with R(n) = 0,        one column, header "n"
 zeros_U.csv         n with U(n) = 0,        one column, header "n"
 zeros_J.csv         n with R(n) + U(n) = 0, one column, header "n"
 verify_zeros.py     independent verifier for the three CSVs (see below)
+verify_reduction.py exact identity check: the census count equals the
+                    prime-pair (shift-form) count, integer for integer
 CHECKSUMS.sha256    SHA-256 of every file in this directory
 ```
 
@@ -96,24 +98,43 @@ a 4 GB machine is enough. It is single-threaded and memory-bound.
 `verify_zeros.py` checks the artifacts without trusting `census_final.py`:
 
 ```bash
-python verify_zeros.py          # N = 10⁶, a few seconds
-python verify_zeros.py 1e7      # ~30 s, ~250 MB
+python verify_zeros.py               # checks 1-4, completeness to N = 10⁶
+python verify_zeros.py 1e7           # completeness to N = 10⁷
+python verify_zeros.py 1e7 --bpsw 200  # adds check 5
 ```
 
-It runs four independent checks:
+It runs four independent checks, plus an optional fifth:
 
-1. **checksums** — every file matches `CHECKSUMS.sha256`.
+1. **checksums** — every file present matches `CHECKSUMS.sha256`.
 2. **structure** — headers, strict monotonicity, and `zeros_J = zeros_R ∩ zeros_U`.
 3. **soundness** — every one of the 456,635 listed zeros is confirmed to be a
    zero, by enumerating the admissible x for that n directly rather than by the
    sliding-slice method the census uses, so a slicing error cannot hide in both.
-4. **completeness** — the zero sets are rebuilt from scratch for n ≤ N and must
-   match the CSVs on that range, i.e. no zero is missing.
+4. **completeness** — the zero sets are rebuilt for n ≤ N by an independently
+   written recount and must match the CSVs on that range, i.e. no zero is
+   missing.
+5. **bpsw** (`--bpsw K`) — each record plus K random indices per list are
+   re-tested with sympy's Baillie–PSW primality test, a primality path sharing
+   nothing with the sieve.
 
-Checks 1–3 always cover the full lists. Check 4 covers n ≤ N and costs O(N^1.5);
-at N = 10⁷ it certifies `zeros_R.csv` and `zeros_J.csv` end to end, since both
-lists terminate below 10⁷. Completeness of the U tail on (10⁷, 10⁸] is
-certified only by the census run itself.
+Checks 1–3 always cover the full lists. Check 4 covers n ≤ N and costs
+O(N^1.5); at N = 10⁷ it certifies `zeros_R.csv` and `zeros_J.csv` end to end,
+since both lists terminate below 10⁷. Completeness of the U tail on (10⁷, 10⁸]
+is certified only by the census run itself. The sieve for checks 3–4 is sized
+by the largest listed zero (≈ 2 × 10⁸) regardless of N, so the run needs about
+300 MB; expect a few minutes at N = 10⁷, machine-dependent.
+
+`verify_reduction.py` checks the mathematics rather than the artifacts: at
+X = 10⁵ it computes Σ R(n) both as the census does and as a count of prime
+pairs indexed by the gap (the exact reduction of the paper), and requires
+integer-for-integer agreement (both sides equal 319,013); it also confirms the
+two singular-series means (→ 2) and the Hardy–Littlewood band ratios. No
+arguments; runs in seconds.
+
+Cross-platform note: `zeros_J.csv` has been regenerated from scratch on an
+independent Linux machine at X = 2 × 10⁶ (the list is complete below that
+bound) and is byte-identical, SHA-256
+`5638e60447998006…`, to the file produced by the X = 10⁸ census on Windows.
 
 ## Citation
 
