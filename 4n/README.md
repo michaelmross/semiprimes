@@ -1,5 +1,13 @@
 # One-step-Fermat semiprimes in J_n
 
+Code and data for the computational section of
+
+> M. M. Ross, *One-Step Fermat Factorization and Goldbach Representations
+with Almost-Equal Summands in Square-Centered Intervals* (2026).
+> https://doi.org/10.5281/zenodo.21753144
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1285459916.svg)](https://doi.org/10.5281/zenodo.21542821)
+
 An exhaustive census, for 2 ≤ n ≤ 10⁸, of the one-step-Fermat semiprimes in the
 square-centred intervals
 
