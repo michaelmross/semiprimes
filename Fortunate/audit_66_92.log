@@ -1,0 +1,45 @@
+  n  win  kind  inh  adm nasty  json match cofactor-checks
+ 66  211 prime   26    1    20     5    NO              27
+ 67   61 prime   17    0     0     0   yes              17
+ 68   17 prime    6    0     0     0   yes               6
+ 69  149 prime   27    0     7     3    NO              27
+ 70  139 prime   28    0     5     4    NO              28
+ 71   61 prime   17    0     0     0   yes              17
+ 72  103 prime   26    0     0     0   yes              26
+ 73  239 prime   29    1    22     7    NO              30
+ 74   53 prime   15    0     0     0   yes              15
+ 75  199 prime   29    0    16     3    NO              29
+ 76   79 prime   21    0     0     0   yes              21
+ 77   29 prime    9    0     0     0   yes               9
+ 78  251 prime   30    0    23     5    NO              30
+ 79  211 prime   30    0    16     4    NO              30
+ 80  193 prime   30    0    13     6    NO              30
+ 81  334 compo   30    8    37    16    NO              38
+ 82   59 prime   16    0     0     0   yes              16
+ 83  382 compo   31   11    44    18    NO              42
+ 84  447 compo   32   18    54    22    NO              50
+ 85  227 prime   32    0    16     4    NO              32
+ 86  127 prime   30    0     0     0   yes              30
+ 87  179 prime   33    0     7     3    NO              33
+ 88   29 prime    9    0     0     0   yes               9
+ 89   11 prime    4    0     0     0   yes               4
+ 90  523 prime   34   27    64    23    NO              61
+ 91   73 prime   20    0     0     0   yes              20
+ 92  733 prime   34   57    95    30    NO              91
+
+*** 15 problem(s):
+    n=66: nasty mismatch, json-extra=[], derived-extra=[103, 107, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 199]
+    n=69: nasty mismatch, json-extra=[], derived-extra=[107, 109, 113, 127]
+    n=70: nasty mismatch, json-extra=[], derived-extra=[109]
+    n=73: nasty mismatch, json-extra=[], derived-extra=[127, 131, 139, 151, 157, 163, 167, 173, 179, 181, 191, 193, 199, 223, 227]
+    n=75: nasty mismatch, json-extra=[], derived-extra=[113, 127, 131, 137, 139, 149, 157, 163, 167, 179, 181, 191, 193]
+    n=78: nasty mismatch, json-extra=[], derived-extra=[131, 137, 149, 151, 157, 163, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233]
+    n=79: nasty mismatch, json-extra=[], derived-extra=[131, 137, 151, 157, 163, 173, 179, 181, 191, 193, 197, 199]
+    n=80: nasty mismatch, json-extra=[], derived-extra=[127, 131, 149, 167, 179, 181, 191]
+    n=81: nasty mismatch, json-extra=[], derived-extra=[131, 137, 139, 157, 163, 167, 181, 191, 193, 197, 211, 229, 233, 239, 241, 263, 277, 281, 307, 311, 331]
+    n=83: nasty mismatch, json-extra=[], derived-extra=[151, 163, 167, 173, 179, 181, 193, 211, 223, 227, 229, 241, 257, 269, 271, 277, 281, 283, 293, 311, 313, 317, 337, 359, 373, 379]
+    n=84: nasty mismatch, json-extra=[], derived-extra=[137, 151, 173, 191, 197, 199, 211, 227, 229, 233, 239, 241, 251, 257, 263, 271, 281, 283, 293, 311, 331, 347, 353, 367, 373, 389, 397, 401, 419, 433, 439, 443]
+    n=85: nasty mismatch, json-extra=[], derived-extra=[137, 139, 149, 157, 163, 173, 179, 191, 193, 197, 199, 223]
+    n=87: nasty mismatch, json-extra=[], derived-extra=[157, 163, 167, 173]
+    n=90: nasty mismatch, json-extra=[], derived-extra=[149, 157, 163, 167, 179, 191, 197, 199, 211, 223, 239, 241, 251, 257, 263, 293, 313, 337, 349, 353, 359, 367, 373, 383, 389, 401, 409, 419, 421, 431, 433, 439, 443, 467, 479, 487, 491, 499, 503, 509, 521]
+    n=92: nasty mismatch, json-extra=[], derived-extra=[151, 163, 167, 173, 181, 191, 193, 199, 211, 227, 233, 241, 251, 257, 271, 281, 283, 293, 307, 311, 331, 347, 349, 353, 359, 373, 379, 397, 401, 409, 421, 431, 433, 439, 449, 463, 467, 479, 487, 491, 499, 503, 509, 523, 547, 557, 569, 571, 577, 587, 593, 599, 601, 613, 617, 619, 641, 659, 661, 673, 677, 683, 691, 701, 719]

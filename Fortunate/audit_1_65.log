@@ -1,0 +1,90 @@
+  n  win  kind  inh  adm nasty  json match cofactor-checks
+  1    2 prime    0    0     0     0   yes               0
+  2    2 prime    0    0     0     0   yes               0
+  3    2 prime    0    0     0     0   yes               0
+  4    5 prime    2    0     0     0   yes               2
+  5    2 prime    0    0     0     0   yes               0
+  6    3 prime    1    0     0     0   yes               1
+  7    2 prime    0    0     0     0   yes               0
+  8    7 prime    3    0     0     0   yes               3
+  9    3 prime    1    0     0     0   yes               1
+ 10   19 prime    6    0     1     0    NO               6
+ 11   11 prime    4    0     0     0   yes               4
+ 12    3 prime    1    0     0     0   yes               1
+ 13   29 prime    7    0     2     1    NO               7
+ 14    5 prime    2    0     0     0   yes               2
+ 15   61 prime    8    2     9     0    NO              10
+ 16   29 prime    9    0     0     0   yes               9
+ 17   31 prime    9    0     1     0    NO               9
+ 18    3 prime    1    0     0     0   yes               1
+ 19   62 compo    9    1     9     3    NO              10
+ 20   47 prime    9    0     5     1    NO               9
+ 21   13 prime    5    0     0     0   yes               5
+ 22   19 prime    7    0     0     0   yes               7
+ 23    5 prime    2    0     0     0   yes               2
+ 24    7 prime    3    0     0     0   yes               3
+ 25   23 prime    8    0     0     0   yes               8
+ 26   47 prime   12    0     2     0    NO              12
+ 27    3 prime    1    0     0     0   yes               1
+ 28   79 prime   13    0     8     2    NO              13
+ 29   47 prime   14    0     0     0   yes              14
+ 30   19 prime    7    0     0     0   yes               7
+ 31   13 prime    5    0     0     0   yes               5
+ 32    7 prime    3    0     0     0   yes               3
+ 33   41 prime   12    0     0     0   yes              12
+ 34  127 prime   15    3    15     5    NO              18
+ 35    2 prime    0    0     0     0   yes               0
+ 36   43 prime   13    0     0     0   yes              13
+ 37    7 prime    3    0     0     0   yes               3
+ 38  109 prime   17    0    11     1    NO              17
+ 39    2 prime    0    0     0     0   yes               0
+ 40  134 compo   17    1    15     5    NO              18
+ 41   59 prime   16    0     0     0   yes              16
+ 42   83 prime   18    0     4     1    NO              18
+ 43   17 prime    6    0     0     0   yes               6
+ 44   59 prime   16    0     0     0   yes              16
+ 45  219 compo   19   11    28    10    NO              30
+ 46   43 prime   13    0     0     0   yes              13
+ 47  197 prime   20    5    24     4    NO              25
+ 48   71 prime   19    0     0     0   yes              19
+ 49  193 prime   20    4    23     7    NO              24
+ 50    7 prime    3    0     0     0   yes               3
+ 51  367 prime   21   30    51    10    NO              51
+ 52   37 prime   11    0     0     0   yes              11
+ 53  103 prime   22    0     4     0    NO              22
+ 54   89 prime   22    0     1     0    NO              22
+ 55  163 prime   23    0    14     5    NO              23
+ 56  179 prime   23    1    17     6    NO              24
+ 57   11 prime    4    0     0     0   yes               4
+ 58   53 prime   15    0     0     0   yes              15
+ 59   29 prime    9    0     0     0   yes               9
+ 60    7 prime    3    0     0     0   yes               3
+ 61   67 prime   18    0     0     0   yes              18
+ 62   83 prime   22    0     0     0   yes              22
+ 63  179 prime   25    0    15     2    NO              25
+ 64  107 prime   26    0     1     0    NO              26
+ 65   37 prime   11    0     0     0   yes              11
+
+*** 22 problem(s):
+    n=10: nasty mismatch, json-extra=[], derived-extra=[17]
+    n=13: nasty mismatch, json-extra=[], derived-extra=[19]
+    n=15: nasty mismatch, json-extra=[], derived-extra=[23, 29, 31, 37, 41, 43, 47, 53, 59]
+    n=17: nasty mismatch, json-extra=[], derived-extra=[29]
+    n=19: nasty mismatch, json-extra=[], derived-extra=[31, 37, 41, 43, 59, 61]
+    n=20: nasty mismatch, json-extra=[], derived-extra=[29, 37, 41, 43]
+    n=26: nasty mismatch, json-extra=[], derived-extra=[41, 43]
+    n=28: nasty mismatch, json-extra=[], derived-extra=[43, 47, 59, 61, 67, 71]
+    n=34: nasty mismatch, json-extra=[], derived-extra=[61, 71, 73, 79, 83, 89, 97, 103, 109, 113]
+    n=38: nasty mismatch, json-extra=[], derived-extra=[61, 67, 71, 73, 79, 83, 89, 97, 101, 107]
+    n=40: nasty mismatch, json-extra=[], derived-extra=[67, 71, 73, 79, 89, 97, 109, 113, 127, 131]
+    n=42: nasty mismatch, json-extra=[], derived-extra=[67, 73, 79]
+    n=45: nasty mismatch, json-extra=[], derived-extra=[71, 73, 83, 101, 103, 107, 109, 137, 151, 157, 163, 167, 179, 191, 193, 197, 199, 211]
+    n=47: nasty mismatch, json-extra=[], derived-extra=[73, 79, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 173, 179, 191, 193]
+    n=49: nasty mismatch, json-extra=[], derived-extra=[73, 79, 83, 89, 101, 109, 113, 131, 137, 139, 149, 163, 173, 179, 181, 191]
+    n=51: nasty mismatch, json-extra=[], derived-extra=[79, 83, 89, 97, 103, 107, 109, 113, 127, 131, 139, 149, 157, 163, 167, 173, 191, 197, 199, 211, 223, 229, 233, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 331, 337, 347, 349, 353, 359]
+    n=53: nasty mismatch, json-extra=[], derived-extra=[83, 89, 97, 101]
+    n=54: nasty mismatch, json-extra=[], derived-extra=[83]
+    n=55: nasty mismatch, json-extra=[], derived-extra=[89, 97, 101, 107, 109, 137, 139, 151, 157]
+    n=56: nasty mismatch, json-extra=[], derived-extra=[89, 113, 131, 137, 139, 149, 151, 157, 163, 167, 173]
+    n=63: nasty mismatch, json-extra=[], derived-extra=[101, 103, 107, 109, 113, 127, 131, 139, 149, 157, 163, 167, 173]
+    n=64: nasty mismatch, json-extra=[], derived-extra=[103]
