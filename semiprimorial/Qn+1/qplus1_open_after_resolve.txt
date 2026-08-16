@@ -1,0 +1,8 @@
+# Unresolved Q_n+1 cases in the n <= 100 census.
+# Columns: n  decimal_digits(Q_n+1)
+52 93
+72 138
+74 143
+77 150
+80 157
+86 172
