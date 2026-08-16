@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+"""
+Verification script for Proposition 1 of Exceptional Sets for Semiprimes in Quadratic Intervals
+"""
 from fractions import Fraction as F
 import math
 
