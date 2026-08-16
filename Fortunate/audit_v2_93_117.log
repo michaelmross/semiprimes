@@ -1,0 +1,32 @@
+  n   win  kind  inh  adm nasty  json match med-kill  checks
+ 93   362 compo   35    6    10    10   yes      116     360
+ 94   353 prime   35    5    15    15   yes      117     351
+ 95   421 prime   35   11    19    19   yes      132     419
+ 96   353 prime   36    4    14    14   yes      112     351
+ 97     3 prime    1    0     0     0   yes        0       1
+ 98   537 compo   36   24    24    24   yes      162     535
+ 99   467 prime   36   15    10    10   yes      152     465
+100     3 prime    1    0     0     0   yes        1       1
+101    79 prime   21    0     0     0   yes       28      77
+102   109 prime   28    0     0     0   yes       38     107
+103   662 compo   37   39    33    33   yes      200     660
+104   179 prime   38    0     1     1   yes       67     177
+105   103 prime   26    0     0     0   yes       39     101
+106     7 prime    3    0     0     0   yes        3       5
+107   113 prime   29    0     0     0   yes       40     111
+108     7 prime    3    0     0     0   yes        5       5
+109    83 prime   22    0     0     0   yes       33      81
+110   409 prime   39    7    17    17   yes      134     407
+111    71 prime   19    0     0     0   yes       30      69
+112   167 prime   38    0     0     0   yes       56     165
+113   311 prime   41    0     7     7   yes       95     309
+114   317 prime   41    0     9     9   yes       93     315
+115   109 prime   28    0     0     0   yes       37     107
+116    59 prime   16    0     0     0   yes       21      57
+117    53 prime   15    0     0     0   yes       22      51
+
+Derived state: derived_state_v2_93_117.json
+
+All metadata, medium-prime filtering, scan classifications, nasty sets,
+alive-composite sets, front-runners, and PRP cofactor checks passed.
+No resolved semiprime occurs below any recorded scan front-runner.
