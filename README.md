@@ -2,7 +2,8 @@
 
 This directory contains the computational material supporting the paper
 
-**A Semiprimorial Triad: Prime First Hits, Semiprime First Hits, and Semiprime Recurrence**.
+> M. M. Ross, *A Semiprimorial Triad: Prime First Hits, Semiprime First Hits, and Semiprime Recurrence* (2026).
+> https://doi.org/10.5281/zenodo.21969573
 
 Let
 
@@ -270,7 +271,11 @@ No verification claim here depends on a live FactorDB entry.
 
 ---
 
-## Archival citation
+## Citation
 
-The live `main` branch is intended for ongoing work. For the final paper, the verification folders should be frozen in an immutable Git tag or commit and that snapshot should be cited in the paper. If an archival DOI is minted for the release, it should be added here together with the paper citation.
+If you use this census, please cite the repository archive on Zenodo — see the
+badge in the top-level `README.md` — and the accompanying paper.
 
+## License
+
+Code MIT, data CC BY 4.0, as for the rest of the repository.
