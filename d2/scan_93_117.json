@@ -1,0 +1,648 @@
+[
+ {
+  "n": 93,
+  "sp_n": 298,
+  "digits_N": 189,
+  "lnN": 433.6436572837583,
+  "q0": 151,
+  "two_q0": 302,
+  "a_prp": 362,
+  "winner_kind": "composite-m",
+  "nasties_below": [
+   167,
+   179,
+   191,
+   197,
+   211,
+   229,
+   239,
+   251,
+   317,
+   349
+  ],
+  "alive_composites": [
+   [
+    302,
+    "lost"
+   ],
+   [
+    346,
+    "lost"
+   ],
+   [
+    358,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 94,
+  "sp_n": 299,
+  "digits_N": 191,
+  "lnN": 439.344100857149,
+  "q0": 151,
+  "two_q0": 302,
+  "a_prp": 353,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   151,
+   157,
+   167,
+   179,
+   181,
+   199,
+   229,
+   251,
+   257,
+   269,
+   271,
+   277,
+   311,
+   313,
+   337
+  ],
+  "alive_composites": [
+   [
+    302,
+    "lost"
+   ],
+   [
+    346,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 95,
+  "sp_n": 301,
+  "digits_N": 194,
+  "lnN": 445.05121112189784,
+  "q0": 151,
+  "two_q0": 302,
+  "a_prp": 421,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   151,
+   157,
+   167,
+   173,
+   199,
+   223,
+   239,
+   257,
+   263,
+   277,
+   283,
+   307,
+   313,
+   317,
+   337,
+   349,
+   383,
+   389,
+   397
+  ],
+  "alive_composites": [
+   [
+    358,
+    "lost"
+   ],
+   [
+    382,
+    "lost"
+   ],
+   [
+    398,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 96,
+  "sp_n": 302,
+  "digits_N": 196,
+  "lnN": 450.7616381392727,
+  "q0": 157,
+  "two_q0": 314,
+  "a_prp": 353,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   167,
+   181,
+   191,
+   199,
+   211,
+   239,
+   241,
+   269,
+   277,
+   281,
+   313,
+   317,
+   331,
+   349
+  ],
+  "alive_composites": [
+   [
+    314,
+    "lost"
+   ],
+   [
+    326,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 97,
+  "sp_n": 303,
+  "digits_N": 199,
+  "lnN": 456.47537094478207,
+  "q0": 157,
+  "two_q0": 314,
+  "a_prp": 3,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 98,
+  "sp_n": 305,
+  "digits_N": 201,
+  "lnN": 462.1956827213895,
+  "q0": 157,
+  "two_q0": 314,
+  "a_prp": 537,
+  "winner_kind": "composite-m",
+  "nasties_below": [
+   163,
+   179,
+   181,
+   191,
+   197,
+   223,
+   233,
+   241,
+   263,
+   269,
+   277,
+   283,
+   307,
+   311,
+   373,
+   383,
+   439,
+   461,
+   463,
+   487,
+   491,
+   503,
+   509,
+   521
+  ],
+  "alive_composites": [
+   [
+    326,
+    "lost"
+   ],
+   [
+    334,
+    "lost"
+   ],
+   [
+    346,
+    "lost"
+   ],
+   [
+    382,
+    "lost"
+   ],
+   [
+    386,
+    "lost"
+   ],
+   [
+    422,
+    "lost"
+   ],
+   [
+    471,
+    "lost"
+   ],
+   [
+    482,
+    "lost"
+   ],
+   [
+    502,
+    "lost"
+   ],
+   [
+    514,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 99,
+  "sp_n": 309,
+  "digits_N": 204,
+  "lnN": 467.9290239982872,
+  "q0": 157,
+  "two_q0": 314,
+  "a_prp": 467,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   193,
+   233,
+   239,
+   269,
+   283,
+   307,
+   313,
+   349,
+   353,
+   461
+  ],
+  "alive_composites": [
+   [
+    386,
+    "lost"
+   ],
+   [
+    422,
+    "lost"
+   ],
+   [
+    446,
+    "lost"
+   ],
+   [
+    454,
+    "lost"
+   ],
+   [
+    458,
+    "lost"
+   ],
+   [
+    466,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 100,
+  "sp_n": 314,
+  "digits_N": 206,
+  "lnN": 473.6784169841955,
+  "q0": 163,
+  "two_q0": 326,
+  "a_prp": 3,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 101,
+  "sp_n": 319,
+  "digits_N": 209,
+  "lnN": 479.44360808698036,
+  "q0": 163,
+  "two_q0": 326,
+  "a_prp": 79,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 102,
+  "sp_n": 321,
+  "digits_N": 211,
+  "lnN": 485.21504921011035,
+  "q0": 163,
+  "two_q0": 326,
+  "a_prp": 109,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 103,
+  "sp_n": 323,
+  "digits_N": 214,
+  "lnN": 490.992701533333,
+  "q0": 163,
+  "two_q0": 326,
+  "a_prp": 662,
+  "winner_kind": "composite-m",
+  "nasties_below": [
+   179,
+   181,
+   191,
+   193,
+   197,
+   229,
+   251,
+   271,
+   307,
+   331,
+   347,
+   383,
+   401,
+   421,
+   433,
+   439,
+   443,
+   467,
+   491,
+   503,
+   521,
+   547,
+   557,
+   577,
+   587,
+   593,
+   607,
+   613,
+   617,
+   619,
+   653,
+   659,
+   661
+  ],
+  "alive_composites": [
+   [
+    346,
+    "lost"
+   ],
+   [
+    382,
+    "lost"
+   ],
+   [
+    398,
+    "lost"
+   ],
+   [
+    446,
+    "lost"
+   ],
+   [
+    478,
+    "lost"
+   ],
+   [
+    482,
+    "lost"
+   ],
+   [
+    502,
+    "lost"
+   ],
+   [
+    542,
+    "lost"
+   ],
+   [
+    562,
+    "lost"
+   ],
+   [
+    573,
+    "lost"
+   ],
+   [
+    586,
+    "lost"
+   ],
+   [
+    614,
+    "lost"
+   ],
+   [
+    633,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 104,
+  "sp_n": 326,
+  "digits_N": 216,
+  "lnN": 496.7795989146997,
+  "q0": 167,
+  "two_q0": 334,
+  "a_prp": 179,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   173
+  ],
+  "alive_composites": []
+ },
+ {
+  "n": 105,
+  "sp_n": 327,
+  "digits_N": 219,
+  "lnN": 502.56955908559695,
+  "q0": 167,
+  "two_q0": 334,
+  "a_prp": 103,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 106,
+  "sp_n": 329,
+  "digits_N": 221,
+  "lnN": 508.36561683636234,
+  "q0": 167,
+  "two_q0": 334,
+  "a_prp": 7,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 107,
+  "sp_n": 334,
+  "digits_N": 224,
+  "lnN": 514.1767578293391,
+  "q0": 173,
+  "two_q0": 346,
+  "a_prp": 113,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 108,
+  "sp_n": 335,
+  "digits_N": 226,
+  "lnN": 519.9908883611641,
+  "q0": 173,
+  "two_q0": 346,
+  "a_prp": 7,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 109,
+  "sp_n": 339,
+  "digits_N": 229,
+  "lnN": 525.8168884685446,
+  "q0": 173,
+  "two_q0": 346,
+  "a_prp": 83,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 110,
+  "sp_n": 341,
+  "digits_N": 231,
+  "lnN": 531.6487709458281,
+  "q0": 173,
+  "two_q0": 346,
+  "a_prp": 409,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   191,
+   197,
+   223,
+   233,
+   239,
+   251,
+   263,
+   281,
+   317,
+   337,
+   347,
+   349,
+   359,
+   367,
+   373,
+   379,
+   401
+  ],
+  "alive_composites": [
+   [
+    362,
+    "lost"
+   ],
+   [
+    394,
+    "lost"
+   ],
+   [
+    398,
+    "lost"
+   ]
+  ]
+ },
+ {
+  "n": 111,
+  "sp_n": 346,
+  "digits_N": 234,
+  "lnN": 537.4952097208858,
+  "q0": 179,
+  "two_q0": 358,
+  "a_prp": 71,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 112,
+  "sp_n": 355,
+  "digits_N": 236,
+  "lnN": 543.3673275103612,
+  "q0": 179,
+  "two_q0": 358,
+  "a_prp": 167,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 113,
+  "sp_n": 358,
+  "digits_N": 239,
+  "lnN": 549.247860496762,
+  "q0": 181,
+  "two_q0": 362,
+  "a_prp": 311,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   181,
+   191,
+   199,
+   241,
+   269,
+   271,
+   277
+  ],
+  "alive_composites": []
+ },
+ {
+  "n": 114,
+  "sp_n": 361,
+  "digits_N": 242,
+  "lnN": 555.1367384550948,
+  "q0": 181,
+  "two_q0": 362,
+  "a_prp": 317,
+  "winner_kind": "prime-m",
+  "nasties_below": [
+   197,
+   211,
+   227,
+   257,
+   263,
+   269,
+   281,
+   283,
+   311
+  ],
+  "alive_composites": []
+ },
+ {
+  "n": 115,
+  "sp_n": 362,
+  "digits_N": 244,
+  "lnN": 561.0283826669206,
+  "q0": 191,
+  "two_q0": 382,
+  "a_prp": 109,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 116,
+  "sp_n": 365,
+  "digits_N": 247,
+  "lnN": 566.928280020503,
+  "q0": 191,
+  "two_q0": 382,
+  "a_prp": 59,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ },
+ {
+  "n": 117,
+  "sp_n": 371,
+  "digits_N": 249,
+  "lnN": 572.8444820831105,
+  "q0": 191,
+  "two_q0": 382,
+  "a_prp": 53,
+  "winner_kind": "prime-m",
+  "nasties_below": [],
+  "alive_composites": []
+ }
+]
