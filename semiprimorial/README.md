@@ -201,7 +201,7 @@ not an assertion that $$13$$ is the exact count.
 To rerun the nine later certifications:
 
 ```bash
-cd qplus1
+cd Qn+1
 
 gp -fq -D parisize=64000000 -D parisizemax=2000000000 \
   qplus1_semiprime9_certify_v2.gp 2>&1 | tee qplus1_semiprime9_certify_v2.log
@@ -234,7 +234,7 @@ Examples include programs for:
 
 Only the Python source programs are retained in this supplemental folder; campaign journals, provisional CSVs, deeper scan outputs, and other transient research artifacts are not needed for the paper's verification package.
 
-GMP-ECM is useful for some of these supplemental factor-discovery programs, but it is **not required** to verify the finite claims in `d1/`, `d2/`, or `qplus1/`.
+GMP-ECM is useful for some of these supplemental factor-discovery programs, but it is **not required** to verify the finite claims in `d1/`, `d2/`, or `Qn+1/`.
 
 ---
 
