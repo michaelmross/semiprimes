@@ -1,6 +1,6 @@
 # Semiprimorial Triad
 
-This repository [https://github.com/michaelmross/semiprimes/tree/main/semiprimorial](https://github.com/michaelmross/semiprimes/tree/main/semiprimorial) contains the computational material supporting the paper
+This [repository](https://github.com/michaelmross/semiprimes/tree/main/semiprimorial) contains the computational material supporting the paper
 
 > M. M. Ross, *A Semiprimorial Triad: Prime First Hits, Semiprime First Hits, and Semiprime Recurrence* (2026).
 > [doi.org/10.5281/zenodo.21969573](https://doi.org/10.5281/zenodo.21969573)
