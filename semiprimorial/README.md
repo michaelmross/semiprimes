@@ -3,7 +3,7 @@
 This directory contains the computational material supporting the paper
 
 > M. M. Ross, *A Semiprimorial Triad: Prime First Hits, Semiprime First Hits, and Semiprime Recurrence* (2026).
-> [10.5281/zenodo.21969573](https://doi.org/10.5281/zenodo.21969573)
+> [doi.org/10.5281/zenodo.21969573](https://doi.org/10.5281/zenodo.21969573)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21970222.svg)](https://doi.org/10.5281/zenodo.21970222)
 
