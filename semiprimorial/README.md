@@ -39,7 +39,7 @@ The files here reproduce the finite results reported in the paper. In particular
 semiprimorial/
 ├── d1/             exact d1 verification through n = 100
 ├── d2/             d2 prime-property verification through n = 100
-├── qplus1/         fixed-shift Q_n + 1 certificates and open cases
+├── Qn+1/         fixed-shift Q_n + 1 certificates and open cases
 ├── supplemental/   campaign and factor-discovery Python programs
 └── README.md
 ```
@@ -158,7 +158,7 @@ This is a property verification. Some exact \(d_2(n)\) values beyond the fully r
 
 ---
 
-## 3. `qplus1/`: the fixed shift \(Q_n+1\)
+## 3. `Qn+1/`: the fixed shift \(Q_n+1\)
 
 The third part of the paper asks whether
 
