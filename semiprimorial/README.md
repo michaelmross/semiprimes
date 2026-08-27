@@ -9,29 +9,29 @@ This directory contains the computational material supporting the paper
 
 Let
 
-\[
+$$
 Q_n=\prod_{j=1}^n s_j,
-\]
+$$
 
-where \(s_j\) is the \(j\)-th semiprime, and define
+where $$s_j$$ is the $$j$$-th semiprime, and define
 
-\[
+$$
 d_1(n)=\min\{m>1:\Omega(Q_n+m)=1\},
 \qquad
 d_2(n)=\min\{m>1:\Omega(Q_n+m)=2\}.
-\]
+$$
 
 The paper studies three related phenomena:
 
-1. \(d_1(n)\) appears always to be prime;
-2. \(d_2(n)\) appears always to be prime;
-3. \(Q_n+1\) appears to be semiprime infinitely often.
+1. $$d_1(n)$$ appears always to be prime;
+2. $$d_2(n)$$ appears always to be prime;
+3. $$Q_n+1$$ appears to be semiprime infinitely often.
 
 The files here reproduce the finite results reported in the paper. In particular:
 
-- all \(100\) values \(d_1(n)\), \(1\le n\le100\), are determined exactly and proved prime;
-- the **prime-property** of \(d_2(n)\) is rigorously verified for every \(1\le n\le100\), without requiring every exact minimum to be known;
-- thirteen values of \(Q_n+1\) with \(n\le100\) are rigorously certified semiprime, while six cases remain deliberately unclassified.
+- all $$100$$ values $$d_1(n)$$, $$1\le n\le100$$, are determined exactly and proved prime;
+- the **prime-property** of $$d_2(n)$$ is rigorously verified for every $$1\le n\le100$$, without requiring every exact minimum to be known;
+- thirteen values of $$Q_n+1$$ with $$n\le100$$ are rigorously certified semiprime, while six cases remain deliberately unclassified.
 
 ## Repository layout
 
@@ -48,20 +48,20 @@ The first three folders contain the material needed for the finite claims in the
 
 ---
 
-## 1. `d1/`: exact prime first hits through \(n=100\)
+## 1. `d1/`: exact prime first hits through $$n=100$$
 
 The paper defines
 
-\[
+$$
 d_1(n)=\min\{m>1:Q_n+m\text{ is prime}\}.
-\]
+$$
 
-Every \(d_1(n)\) through \(n=100\) is determined exactly.
+Every $$d_1(n)$$ through $$n=100$$ is determined exactly.
 
 Files:
 
-- `finite100_d1_witness_manifest.csv` — the \(100\) exact values, together with \(s_n\), \(q_0\), the \(q_0^2\) protection boundary, and related audit data;
-- `finite100_d1_certify.gp` — independently reconstructs the semiprimorials, checks every smaller offset, proves \(Q_n+d_1(n)\) prime, proves \(d_1(n)\) prime, and generates ECPP certificates where needed;
+- `finite100_d1_witness_manifest.csv` — the $$100$$ exact values, together with $$s_n$$, $$q_0$$, the $$q_0^2$$ protection boundary, and related audit data;
+- `finite100_d1_certify.gp` — independently reconstructs the semiprimorials, checks every smaller offset, proves $$Q_n+d_1(n)$$ prime, proves $$d_1(n)$$ prime, and generates ECPP certificates where needed;
 - `finite100_d1_verify.gp` — independently reconstructs the data and validates the saved certificates;
 - `finite100_d1_certify.log` — certification transcript;
 - `finite100_d1_verify.log` — independent verification transcript.
@@ -86,24 +86,24 @@ ALL 100 EXACT d1 VALUES AND SAVED CERTIFICATES VALID
 
 ---
 
-## 2. `d2/`: prime-property verification through \(n=100\)
+## 2. `d2/`: prime-property verification through $$n=100$$
 
 Here
 
-\[
+$$
 d_2(n)=\min\{m>1:\Omega(Q_n+m)=2\}.
-\]
+$$
 
-This computation is intentionally different from the \(d_1\) computation. Large semiprime candidates can be difficult to factor completely, so the paper verifies the **property** that the true minimum has a prime offset rather than insisting on determining every exact value.
+This computation is intentionally different from the $$d_1$$ computation. Large semiprime candidates can be difficult to factor completely, so the paper verifies the **property** that the true minimum has a prime offset rather than insisting on determining every exact value.
 
 The method has two layers:
 
 1. an independent audit exhausts the offsets below each recorded scan front-runner and checks that no composite-offset semiprime can overturn the prime-property;
-2. a positive certificate supplies a rigorously proved semiprime at a prime offset for every \(n\le100\).
+2. a positive certificate supplies a rigorously proved semiprime at a prime offset for every $$n\le100$$.
 
 Files:
 
-- `finite100_witness_manifest.csv` — one certified prime-offset semiprime witness for every \(1\le n\le100\);
+- `finite100_witness_manifest.csv` — one certified prime-offset semiprime witness for every $$1\le n\le100$$;
 - `finite100_certify_v2.gp` — proves the witness factorizations and primality of their factors;
 - `finite100_verify_v2.gp` — independently rechecks the factorizations and saved certificates;
 - `finite100_certify_v2.log` — certification transcript;
@@ -148,27 +148,27 @@ ALL 100 WITNESS FACTORIZATIONS AND SAVED CERTIFICATES VALID
 
 ### What this proves
 
-For every \(1\le n\le100\),
+For every $$1\le n\le100$$,
 
-\[
+$$
 d_2(n)\ \text{is prime}.
-\]
+$$
 
-This is a property verification. Some exact \(d_2(n)\) values beyond the fully resolved initial range may still depend on unresolved factorizations, but any such unresolved competitor in the audited race lies at a prime offset and therefore cannot invalidate the theorem.
+This is a property verification. Some exact $$d_2(n)$$ values beyond the fully resolved initial range may still depend on unresolved factorizations, but any such unresolved competitor in the audited race lies at a prime offset and therefore cannot invalidate the theorem.
 
 ---
 
-## 3. `Qn+1/`: the fixed shift \(Q_n+1\)
+## 3. `Qn+1/`: the fixed shift $$Q_n+1$$
 
 The third part of the paper asks whether
 
-\[
+$$
 \Omega(Q_n+1)=2
-\]
+$$
 
-for infinitely many \(n\).
+for infinitely many $$n$$.
 
-Through \(n=100\), thirteen semiprime occurrences have been rigorously established:
+Through $$n=100$$, thirteen semiprime occurrences have been rigorously established:
 
 ```text
 2, 3, 8, 9, 15, 16, 19, 21, 23, 27, 29, 43, 65
@@ -178,11 +178,11 @@ The first four are small and are factored explicitly in the paper. The nine late
 
 Files:
 
-- `qplus1_semiprime9_certify_v2.gp` — reconstructs \(Q_n+1\), checks the exact two-factor decompositions, and proves both factors prime;
+- `qplus1_semiprime9_certify_v2.gp` — reconstructs $$Q_n+1$$, checks the exact two-factor decompositions, and proves both factors prime;
 - `qplus1_semiprime9_verify_v2.gp` — independently validates the saved certificates;
 - `qplus1_semiprime9_certify_v2.log` — certification transcript;
 - `qplus1_semiprime9_verify_v2.log` — verification transcript;
-- `qplus1_open_after_resolve.txt` — the six cases still unclassified in the \(n\le100\) census.
+- `qplus1_open_after_resolve.txt` — the six cases still unclassified in the $$n\le100$$ census.
 
 The unresolved indices are
 
@@ -192,11 +192,11 @@ The unresolved indices are
 
 No conclusion in the paper depends on how these six cases eventually factor. The finite statement is therefore the lower bound
 
-\[
+$$
 \#\{n\le100:\Omega(Q_n+1)=2\}\ge13,
-\]
+$$
 
-not an assertion that \(13\) is the exact count.
+not an assertion that $$13$$ is the exact count.
 
 To rerun the nine later certifications:
 
@@ -228,7 +228,7 @@ Examples include programs for:
 - targeted factor discovery;
 - resumable ECM campaigns;
 - campaign bookkeeping;
-- the \(Q_n+1\) FactorDB/local-resolution campaign;
+- the $$Q_n+1$$ FactorDB/local-resolution campaign;
 - model and hazard diagnostics;
 - b-file target generation and value finalization.
 
@@ -263,11 +263,11 @@ Likewise, the derived-state JSON files written by `audit_scan_v2.py` are reprodu
 
 The repository distinguishes three kinds of computational statement:
 
-- **exact determination** — used for \(d_1(n)\) through \(100\);
-- **property verification** — used for \(d_2(n)\) through \(100\);
-- **finite recurrence evidence** — used for \(Q_n+1\), where thirteen hits are proved and six cases remain open.
+- **exact determination** — used for $$d_1(n)$$ through $$100$$;
+- **property verification** — used for $$d_2(n)$$ through $$100$$;
+- **finite recurrence evidence** — used for $$Q_n+1$$, where thirteen hits are proved and six cases remain open.
 
-The first two are finite theorems. The third is evidence for an infinitude conjecture: no finite computation can prove or disprove that infinitely many \(Q_n+1\) are semiprime.
+The first two are finite theorems. The third is evidence for an infinitude conjecture: no finite computation can prove or disprove that infinitely many $$Q_n+1$$ are semiprime.
 
 No verification claim here depends on a live FactorDB entry.
 
