@@ -37,7 +37,7 @@ The files here reproduce the finite results reported in the paper. In particular
 semiprimorial/
 ├── d1/             exact d1 verification through n = 100
 ├── d2/             d2 prime-property verification through n = 100
-├── Qn+1/         fixed-shift Q_n + 1 certificates and open cases
+├── Qn+1/           fixed-shift Q_n + 1 certificates and open cases
 ├── supplemental/   campaign and factor-discovery Python programs
 └── README.md
 ```
