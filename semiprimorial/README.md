@@ -1,9 +1,7 @@
 # Semiprimorial Triad
 
-This [repository](https://github.com/michaelmross/semiprimes/tree/main/semiprimorial) contains the computational material supporting the paper
-
-> M. M. Ross, *A Semiprimorial Triad: Prime First Hits, Semiprime First Hits, and Semiprime Recurrence* (2026).
-> [doi.org/10.5281/zenodo.21969573](https://doi.org/10.5281/zenodo.21969573)
+This [repository](https://github.com/michaelmross/semiprimes/tree/main/semiprimorial) contains the computational material supporting the paper 
+[*A Semiprimorial Triad: Prime First Hits, Semiprime First Hits, and Semiprime Recurrence*](https://zenodo.org/records/21969573) (M. M. Ross, 2026).
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21970222-blue.svg)](https://doi.org/10.5281/zenodo.21970222)
 
@@ -193,7 +191,7 @@ The unresolved indices are
 No conclusion in the paper depends on how these six cases eventually factor. The finite statement is therefore the lower bound
 
 $$
-\#\{n\le100:\Omega(Q_n+1)=2\}\ge13,
+|\{n \le 100 : \Omega(Q_n + 1) = 2\}| \ge 13,
 $$
 
 not an assertion that $$13$$ is the exact count.
