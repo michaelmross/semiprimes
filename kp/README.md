@@ -108,4 +108,4 @@ As reported in the paper:
 
 ## License
 
-MIT
+[Repository license file](https://github.com/michaelmross/semiprimes/blob/main/LICENSE.md).
