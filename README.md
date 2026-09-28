@@ -2,9 +2,7 @@
 
 Code and data for the computational section of
 
-> M. M. Ross, *Exact Semiprimes in Short Intervals: Prime Supply, Factor-Pair
-> Multiplicity, and the Parity Barrier* (2026).
-> https://doi.org/10.5281/zenodo.21089081
+> [*Exact Semiprimes in Short Intervals: Prime Supply, Factor-Pair Multiplicity, and the Parity Barrier*](https://doi.org/10.5281/zenodo.21089081) (Ross, M. M., 2026). 
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21542821-blue.svg)](https://doi.org/10.5281/zenodo.21542821)
 
