@@ -15,3 +15,7 @@ The paper establishes its upper bound by checking every applicable piecewise bra
 ## Why there is no grid line for θ = 17/30
 
 At that θ, the relevant tabulated admissibility threshold is attained at σ = 7/10. A generic floating-point grid need not hit that point and can return the floor 1 − θ = 13/30 ≈ 0.433333, which misleadingly looks stronger than the actual calculation. The script now omits this scan and uses exact fractions for the worked-example check.
+
+## License
+
+[Repository license file](https://github.com/michaelmross/semiprimes/blob/main/LICENSE.md).
