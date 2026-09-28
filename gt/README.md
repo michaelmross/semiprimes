@@ -1,6 +1,6 @@
 # `gt_scan.py`
 
-This script accompanies Proposition 1 of *Exceptional Sets for Semiprimes in Quadratic Intervals*. It checks arithmetic used in the claimed bound for the exceptional-set exponent at the square-root scale. Run it with `python3 gt_scan.py`; it uses only Python's standard library.
+This script supports Proposition 1 of [*Exceptional Sets for Semiprimes in Quadratic Intervals*](https://doi.org/10.5281/zenodo.21135892) (Ross, M. M., 2026). It checks arithmetic used in the claimed bound for the exceptional-set exponent at the square-root scale. Run it with `python3 gt_scan.py`; it uses only Python's standard library.
 
 ## What it prints
 
